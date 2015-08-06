@@ -615,21 +615,21 @@ public class NewFFmpegFrameRecorder extends FrameRecorder {
         }
     }
     
- // 逆时针旋转图像degree角度（原尺寸）
+ // Images degree counterclockwise rotation angle ( original size )
  	private IplImage rotateImage(IplImage img)
      {
      	/*IplImage img_rotate = IplImage.create(img.width(), img.height(),  IPL_DEPTH_8U, 2);
-     	//旋转中心为图像中心
+     	//The center of rotation center of the image
      	CvPoint2D32f center = new CvPoint2D32f(); 
      	center.x(img.width()/2.0f+0.5f);
      	center.y(img.height()/2.0f+0.5f);
-     	//计算二维旋转的仿射变换矩阵
+     	//2D rotation calculated affine transformation matrix
      	CvMat cvMat = cvCreateMat(2, 3, CV_32F);
      	
      	cvZero (img_rotate);
      	cv2DRotationMatrix( center, degree,1.0, cvMat);*/
      	
-     	//变换图像，并用黑色填充其余值
+     	//Rollovers , and fill the remaining values ​​with black
      	//cvWarpAffine(img,img_rotate, cvMat,CV_INTER_LINEAR+CV_WARP_FILL_OUTLIERS,cvScalarAll(0) );
  		IplImage img_rotate = IplImage.create(img.height(),img.width(),  IPL_DEPTH_8U, 2);
  		cvTranspose(img, img_rotate);

@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Applications/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/sameer/Desktop/arsenal/VideoRecorder/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-c31e965abe6ae7107606bd8ad10adec73a9092ab.jar" />
-    </item>
-    <item
         jar="/Users/sameer/Desktop/arsenal/VideoRecorder/app/libs/javacpp.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -21,6 +14,13 @@
         revision="22.0.1"
         sha1="310927e25b52136954b65608f341dfd5e5ad9d64">
         <dex dex="/Users/sameer/Desktop/arsenal/VideoRecorder/app/build/intermediates/pre-dexed/debug/javacv-ac9a70dc9067f1912c6c5b553265fa05c6bc6bf2.jar" />
+    </item>
+    <item
+        jar="/Applications/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/sameer/Desktop/arsenal/VideoRecorder/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-c31e965abe6ae7107606bd8ad10adec73a9092ab.jar" />
     </item>
 
 </items>
